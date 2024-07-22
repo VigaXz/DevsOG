@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devsenvolvedores</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="formu1">
+    <p class="parag1">Bem Vindo(a) <br>Dev</p>
+     <img src="Imagens/Modern_Minimalist_Graffiti_Dream_Brand_Logo.jpg">
+    <p class="parag2">Todos os meios de comunicação<br>dos Devsenvolvedores do<br>
+    Stoque.OG <br><br><br><br><br><br><br><br><br>Agradeçemos sua participação no projeto</p>
+    <div class="logos">
+        <a href="https://discord.gg/EDUuGjus"><img class="mover"   src="Imagens/discord.jpg" alt="Discord"></a>
+        <a href=""><img class="mover" id="demo"  src="Imagens/git.png" alt="GitHub"></a>
+        <a href="https://trello.com/invite/b/6595f135e22a990bbd8d606e/ATTI02edf22b125c4ccb1280cf709775241fAED3E8FF/stoqueog"><img class="mover"  src="Imagens/trello.jpeg" alt="Trello"></a>
+        <a href="https://chat.whatsapp.com/EtqQKA8VIVs5EutshGP4Pc"><img class="mover"  src="Imagens/whats.7f3687b9-847d-4f86-bb5c-c73259e2b38e.jpg" alt="Whats"></a>
+    </div>
+    </div>
+   
+
+    <script>
+        // Seleciona o elemento da imagem com link
+        const linkImagem = document.getElementById('demo');
+    
+        // Adiciona um evento de clique ao link
+        linkImagem.addEventListener('click', function(event) {
+            // Verifica se o link é válido
+            if (this.parentNode.getAttribute('href') === '#' || this.parentNode.getAttribute('href') === '') {
+                alert('Link do GitHub ainda não foi registrado ><, vamo na calma >D');
+            }
+        });
+    </script>
+    
+</body>
+</html>
+
